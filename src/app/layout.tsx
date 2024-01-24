@@ -5,7 +5,7 @@ import localFont from "next/font/local";
 import { cn } from "@/lib/utils";
 
 const clash = localFont({
-  src: "./ClashDisplay-Semibold.otf",
+  src: "../../public/ClashDisplay-Semibold.otf",
   variable: "--font-clash",
 });
 
