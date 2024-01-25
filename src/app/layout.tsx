@@ -3,9 +3,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import localFont from "next/font/local";
 import { cn } from "@/lib/utils";
-import { Toaster } from "sonner";
-import { Button } from "@/components/ui/button";
-import { BuyMeACoffee } from "@/components/icons";
 
 const clash = localFont({
   src: "../../public/ClashDisplay-Semibold.otf",
