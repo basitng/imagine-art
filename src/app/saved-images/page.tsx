@@ -1,4 +1,4 @@
-import HomeLayout from "@/components/layouts/home";
+import SavedImagesLayout from "@/components/layouts/saved-images";
 import { currentUser } from "@clerk/nextjs";
 import React from "react";
 
@@ -16,7 +16,7 @@ export default async function Page() {
 
   return (
     <>
-      <HomeLayout userInfo={userInfo} />
+      <SavedImagesLayout userInfo={userInfo} />
     </>
   );
 }
